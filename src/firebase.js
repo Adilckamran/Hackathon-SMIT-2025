@@ -3,12 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDpR3RbzUWqdCkD3B5opMXBAKwJuv5EZI8",
-  authDomain: "login-firebase-614e5.firebaseapp.com",
-  projectId: "login-firebase-614e5",
-  storageBucket: "login-firebase-614e5.appspot.com",
-  messagingSenderId: "190764049007",
-  appId: "1:190764049007:web:95863d6aa0dea8ec2c239a"
+  apiKey: "AIzaSyB5gnDq1ceCa31UFYeQsCnAfe3hLwiFj9k",
+  authDomain: "hackathon-f1a6d.firebaseapp.com",
+  projectId: "hackathon-f1a6d",
+  storageBucket: "hackathon-f1a6d.firebasestorage.app",
+  messagingSenderId: "333207644237",
+  appId: "1:333207644237:web:70d3b7c8567b6e11a0d404",
+  measurementId: "G-7J0Y27GYVM"
 };
 
 const app = initializeApp(firebaseConfig);
